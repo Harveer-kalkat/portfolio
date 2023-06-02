@@ -1,4 +1,3 @@
-'use client'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import { ThemeProvider } from 'next-themes'
