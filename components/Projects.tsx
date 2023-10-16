@@ -1,10 +1,18 @@
-import React from 'react'
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
+  {
+    name: "TaskWarriors",
+    description:
+      "A Service based web application developed to match skilled University/college students with local demand. The main purpose of this app is to provide students with industry experience as not all students are able to land internships..",
+    image: "/Project-0.jpg",
+    github: "https://github.com/Harveer-kalkat/TaskWarriors",
+    link: "https://taskwarriors.onrender.com/",
+  },
   {
     name: "GetAway Drives",
     description:
@@ -20,7 +28,7 @@ const projects = [
     github: "https://github.com/Harveer-kalkat/weather-app",
     link: "https://snazzy-faun-bfee59.netlify.app",
   },
-]
+];
 
 const Projects = () => {
   return (
@@ -70,12 +78,11 @@ const Projects = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
